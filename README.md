@@ -36,3 +36,54 @@ Beispiel:
 ## Regeln
 
 - Verwende **git** um die Zwischenstufen zu speichern.
+
+
+
+
+# Weather app with React
+
+Use the API [OpenWeather](https://openweathermap.org/current) and build a web page to query the weather.
+
+## Preparation
+
+- If you don't have an API key yet, create an account on [OpenWeather](https://openweathermap.org). You should use your own API key.
+- Make a few API queries in Thunder Client or in another tool. Test different queries and look at the server responses.
+
+## Tasks
+
+- On the web page there should be at least one input for a city and a button with the text "Show weather". When a user has entered a city and clicks on the button, a text with the weather should appear on the page.
+  
+  Example:
+
+      It is currently 7.73 °C (felt 7.73 °C) in Berlin, DE.  
+      The weather is: Clear sky
+
+- Expand the page so that it shows the results of the last five queries (in a list). When a new query is made, the oldest query is no longer displayed.
+- The page should display the newest query first.
+- (Store the results of the queries in localStorage and show them when the page is reloaded) will be done tomorrow.
+- Style the page the way you like it!
+
+Example:
+
+![reference](reference-image.png)
+
+## Bonus
+
+- Add an option where the user can get a preview for the next 5 days.
+- Add further functionalities, e.g.
+  - get more weather data
+  - show an appropriate animation for each weather on the page.
+- Use the [Geocoding API](https://openweathermap.org/api/geocoding-api) to select one of the cities with the same name and get the weather data from it. (quite extensive)
+
+## rules
+
+- Use **git** to save the intermediate levels.
+
+
+Translated with www.DeepL.com/Translator (free version)
+
+
+
+
+
+
